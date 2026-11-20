@@ -1,0 +1,12 @@
+node_modules
+dist
+*.local
+.env
+.vercel
+
+# Editors
+.idea
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.log
