@@ -8,8 +8,8 @@ import type { Interest, LanguageSkill, Profile, Project, SkillGroup, TimelineEnt
 export const profile: Profile = {
   name: 'Sascha Niederhauser',
   title: {
-    en: 'Business Information Technology Â· MSc student',
-    de: 'Wirtschaftsinformatik Â· MSc-Student',
+    en: 'Business Information Technology · MSc student',
+    de: 'Wirtschaftsinformatik · MSc-Student',
   },
   location: { en: 'Mellingen AG, Switzerland', de: 'Mellingen AG, Schweiz' },
   tagline: {
@@ -24,7 +24,7 @@ export const profile: Profile = {
     ],
     de: [
       'Ich habe einen Bachelor of Science FHNW in Business Information Technology und studiere jetzt im Master of Science in Business Information Systems an der FHNW in Olten.',
-      'In meiner Bachelorarbeit habe ich ein Security-Framework fÃ¼r cloud-native Anwendungen auf Microsoft Azure entwickelt, mit einer Gap-Analyse nach OWASP Top 10, einem Kontrollkatalog und einer Referenzarchitektur. Vor dem Studium war ich zwei Jahre bei ABB. Dort habe ich AblÃ¤ufe mit Power Automate automatisiert, Power-BI-Dashboards gebaut und einen Proof of Concept fÃ¼r eine Projektmanagement-Applikation verantwortet.',
+      'In meiner Bachelorarbeit habe ich ein Security-Framework für cloud-native Anwendungen auf Microsoft Azure entwickelt, mit einer Gap-Analyse nach OWASP Top 10, einem Kontrollkatalog und einer Referenzarchitektur. Vor dem Studium war ich zwei Jahre bei ABB. Dort habe ich Abläufe mit Power Automate automatisiert, Power-BI-Dashboards gebaut und einen Proof of Concept für eine Projektmanagement-Applikation verantwortet.',
       'In der Freizeit gehe ich bouldern, spiele Fussball, E-Gitarre und Klavier und experimentiere mit Linux, Cloud-Technologien und lokaler KI.',
     ],
   },
@@ -45,7 +45,7 @@ export const education: TimelineEntry[] = [
     bullets: { en: [], de: [] },
   },
   {
-    period: { en: '09/2023 â€“ 08/2026', de: '09/2023 â€“ 08/2026' },
+    period: { en: '09/2023 – 08/2026', de: '09/2023 – 08/2026' },
     role: {
       en: 'Bachelor of Science in Business Information Technology',
       de: 'Bachelor of Science in Business Information Technology',
@@ -56,18 +56,20 @@ export const education: TimelineEntry[] = [
       en: [
         'Thesis: Security framework for cloud-native applications on Microsoft Azure. Analysis of a production environment, gap analysis against the OWASP Top 10, control catalogue and reference architecture.',
         'Focus: project management, business process management, cloud & security, requirements engineering, business models.',
+        'Specialisation in Software Engineering: REST APIs, agile methods such as Scrum, and deriving requirements to find out what the customer really needs.',
       ],
       de: [
-        'Bachelorarbeit: Security-Framework fÃ¼r cloud-native Anwendungen in Microsoft Azure. Analyse einer produktiven Umgebung, Gap-Analyse nach OWASP Top 10, Kontrollkatalog und Referenzarchitektur.',
+        'Bachelorarbeit: Security-Framework für cloud-native Anwendungen in Microsoft Azure. Analyse einer produktiven Umgebung, Gap-Analyse nach OWASP Top 10, Kontrollkatalog und Referenzarchitektur.',
         'Schwerpunkte: Projektmanagement, Business Process Management, Cloud & Security, Requirements Engineering, Business Models.',
+        'Vertiefung Software Engineering: REST-APIs, agile Methoden wie Scrum und das Ableiten von Anforderungen, um herauszufinden, was die Kundschaft wirklich braucht.',
       ],
     },
   },
   {
-    period: { en: '08/2018 â€“ 07/2021', de: '08/2018 â€“ 07/2021' },
+    period: { en: '08/2018 – 07/2021', de: '08/2018 – 07/2021' },
     role: {
       en: 'Commercial apprenticeship (Kaufmann EFZ) with vocational baccalaureate',
-      de: 'Kaufmann EFZ mit BerufsmaturitÃ¤t',
+      de: 'Kaufmann EFZ mit Berufsmaturität',
     },
     organization: 'Wirtschaftsmittelschule, Kantonsschule Baden',
     bullets: { en: [], de: [] },
@@ -77,7 +79,7 @@ export const education: TimelineEntry[] = [
 export const experience: TimelineEntry[] = [
   {
     period: { en: 'Summer 2025 (approx. 3 months)', de: 'Sommer 2025 (ca. 3 Monate)' },
-    role: { en: 'Temporary production associate', de: 'TemporÃ¤rmitarbeiter Produktion' },
+    role: { en: 'Temporary production associate', de: 'Temporärmitarbeiter Produktion' },
     organization: 'Hitachi Energy',
     bullets: {
       en: [
@@ -85,13 +87,13 @@ export const experience: TimelineEntry[] = [
         'Part of a well-established team with high quality and safety standards.',
       ],
       de: [
-        'Mitarbeit in der Produktion wÃ¤hrend der Semesterferien.',
-        'Einsatz in einem eingespielten Team mit hohen QualitÃ¤ts- und Sicherheitsanforderungen.',
+        'Mitarbeit in der Produktion während der Semesterferien.',
+        'Einsatz in einem eingespielten Team mit hohen Qualitäts- und Sicherheitsanforderungen.',
       ],
     },
   },
   {
-    period: { en: '08/2022 â€“ 01/2023', de: '08/2022 â€“ 01/2023' },
+    period: { en: '08/2022 – 01/2023', de: '08/2022 – 01/2023' },
     role: { en: 'Project Manager Support', de: 'Projectmanager Support' },
     organization: 'ABB Schweiz AG',
     place: 'Untersiggenthal',
@@ -102,14 +104,14 @@ export const experience: TimelineEntry[] = [
         'Onboarded and mentored the new intern.',
       ],
       de: [
-        'Verantwortung fÃ¼r ein Projekt zur Entwicklung eines Proof of Concept fÃ¼r eine Applikation zur UnterstÃ¼tzung des Projektmanagements.',
-        'RegelmÃ¤ssige Abstimmung mit den Stakeholdern und Aufbereitung des Projektstands.',
+        'Verantwortung für ein Projekt zur Entwicklung eines Proof of Concept für eine Applikation zur Unterstützung des Projektmanagements.',
+        'Regelmässige Abstimmung mit den Stakeholdern und Aufbereitung des Projektstands.',
         'Einarbeitung und Betreuung des neuen Praktikanten.',
       ],
     },
   },
   {
-    period: { en: '08/2021 â€“ 07/2022', de: '08/2021 â€“ 07/2022' },
+    period: { en: '08/2021 – 07/2022', de: '08/2021 – 07/2022' },
     role: { en: 'Back Office Associate', de: 'Mitarbeiter Back Office' },
     organization: 'ABB Schweiz AG',
     place: 'Untersiggenthal',
@@ -121,8 +123,8 @@ export const experience: TimelineEntry[] = [
         'Administration: procurement, expense reports, scheduling and events, on- and offboarding.',
       ],
       de: [
-        'Automatisierung und Digitalisierung bestehender AblÃ¤ufe mit Power Automate.',
-        'Aufbau eines Power-BI-Dashboards fÃ¼r Verkaufsdaten zur besseren Ãœbersicht.',
+        'Automatisierung und Digitalisierung bestehender Abläufe mit Power Automate.',
+        'Aufbau eines Power-BI-Dashboards für Verkaufsdaten zur besseren Übersicht.',
         'Erstellung einheitlicher Vorlagen und Dokumentationen in SharePoint und MS Office.',
         'Administrative Aufgaben: Materialbeschaffung, Spesenabrechnung, Termin- und Eventplanung, On- und Offboarding.',
       ],
@@ -141,7 +143,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     name: { en: 'Development', de: 'Entwicklung' },
-    items: ['SQL', 'Java (Spring Boot)', 'Python (basics)', 'Git', 'React', 'TypeScript'],
+    items: ['Java (Spring Boot)', 'REST APIs', 'SQL', 'Python (basics)', 'Git', 'React', 'TypeScript'],
   },
   {
     name: { en: 'Methods', de: 'Methoden' },
@@ -149,6 +151,7 @@ export const skillGroups: SkillGroup[] = [
       'Project Management',
       'Business Process Management',
       'Requirements Engineering',
+      'Scrum',
       'Agile Application Lifecycle Management',
     ],
   },
@@ -160,7 +163,7 @@ export const languages: LanguageSkill[] = [
     name: { en: 'English', de: 'Englisch' },
     level: { en: 'Fluent, spoken and written (C1)', de: 'Fliessend in Wort und Schrift (C1)' },
   },
-  { name: { en: 'French', de: 'FranzÃ¶sisch' }, level: { en: 'Good (B2)', de: 'Gute Kenntnisse (B2)' } },
+  { name: { en: 'French', de: 'Französisch' }, level: { en: 'Good (B2)', de: 'Gute Kenntnisse (B2)' } },
 ]
 
 export const interests: Interest[] = [
@@ -181,27 +184,27 @@ export const projects: Project[] = [
     title: 'Azure Security Framework',
     description: {
       en: 'Bachelor thesis: a security framework for cloud-native applications on Microsoft Azure. It analyses a production environment, runs a gap analysis against the OWASP Top 10 and turns the results into a control catalogue and a reference architecture.',
-      de: 'Bachelorarbeit: Security-Framework fÃ¼r cloud-native Anwendungen auf Microsoft Azure. Analyse einer produktiven Umgebung, Gap-Analyse nach OWASP Top 10, daraus abgeleitet ein Kontrollkatalog und eine Referenzarchitektur.',
+      de: 'Bachelorarbeit: Security-Framework für cloud-native Anwendungen auf Microsoft Azure. Analyse einer produktiven Umgebung, Gap-Analyse nach OWASP Top 10, daraus abgeleitet ein Kontrollkatalog und eine Referenzarchitektur.',
     },
     tags: ['Azure', 'Security', 'OWASP'],
     status: 'done',
   },
   {
     id: 'majesty-bit',
-    title: 'Majesty â€“ Online Card Game',
+    title: 'Majesty – Online Card Game',
     description: {
       en: 'Team project at FHNW: a browser version of the board game "Majesty" with a Java Spring Boot backend for game logic, game state and match data stored in SQL.',
-      de: 'Teamprojekt an der FHNW: eine Browser-Version des Brettspiels Â«MajestyÂ» mit Java-Spring-Boot-Backend fÃ¼r Spiellogik und Spielzustand, Matchdaten in SQL.',
+      de: 'Teamprojekt an der FHNW: eine Browser-Version des Brettspiels «Majesty» mit Java-Spring-Boot-Backend für Spiellogik und Spielzustand, Matchdaten in SQL.',
     },
     tags: ['Java', 'Spring Boot', 'SQL', 'Git'],
     status: 'done',
   },
   {
     id: 'abb-pm-poc',
-    title: 'Project Management App â€“ Proof of Concept',
+    title: 'Project Management App – Proof of Concept',
     description: {
       en: 'At ABB I owned the proof of concept for an application that supports project managers: gathering requirements with stakeholders, steering the project and reporting progress.',
-      de: 'Bei ABB habe ich den Proof of Concept fÃ¼r eine Applikation zur UnterstÃ¼tzung von Projektleitenden verantwortet: Anforderungen mit Stakeholdern erheben, Projekt steuern, Fortschritt rapportieren.',
+      de: 'Bei ABB habe ich den Proof of Concept für eine Applikation zur Unterstützung von Projektleitenden verantwortet: Anforderungen mit Stakeholdern erheben, Projekt steuern, Fortschritt rapportieren.',
     },
     tags: ['Project Management', 'Requirements'],
     status: 'done',
@@ -211,7 +214,7 @@ export const projects: Project[] = [
     title: 'Sales Dashboard & Workflow Automation',
     description: {
       en: 'A Power BI dashboard that gives the back office a clear view of sales data, plus Power Automate flows that replaced manual, repetitive steps.',
-      de: 'Power-BI-Dashboard fÃ¼r eine bessere Ãœbersicht Ã¼ber Verkaufsdaten im Back Office, dazu Power-Automate-Flows, die manuelle, wiederkehrende Schritte ersetzen.',
+      de: 'Power-BI-Dashboard für eine bessere Übersicht über Verkaufsdaten im Back Office, dazu Power-Automate-Flows, die manuelle, wiederkehrende Schritte ersetzen.',
     },
     tags: ['Power BI', 'Power Automate', 'SharePoint'],
     status: 'done',
@@ -231,7 +234,7 @@ export const projects: Project[] = [
     title: 'Study Planner',
     description: {
       en: 'An Obsidian-inspired planner for daily study tasks: daily notes in Markdown, [[links]] between days and courses, and a weekly overview.',
-      de: 'Ein von Obsidian inspirierter Planer fÃ¼r tÃ¤gliche Studienaufgaben: Daily Notes in Markdown, [[Links]] zwischen Tagen und Modulen, dazu eine WochenÃ¼bersicht.',
+      de: 'Ein von Obsidian inspirierter Planer für tägliche Studienaufgaben: Daily Notes in Markdown, [[Links]] zwischen Tagen und Modulen, dazu eine Wochenübersicht.',
     },
     tags: ['React', 'TypeScript'],
     status: 'planned',
